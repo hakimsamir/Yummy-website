@@ -1,0 +1,1001 @@
+* {
+  margin    : 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+}
+
+/* start welcome page */
+
+.welcome {
+  background-image   : url(../image/login_img.jpg);
+  background-position: center;
+  background-size    : cover;
+  width              : 100%;
+  height             : 100vh;
+}
+
+.layer {
+  width           : 100%;
+  height          : 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  position        : relative;
+}
+
+.welcome_info {
+  width           : 700px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius   : 10px;
+  padding         : 10px;
+}
+
+.welcome h1 {
+  position   : absolute;
+  top        : 70px;
+  color      : white;
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+.welcome_logo {
+  width   : 65px;
+  height  : 65px;
+  position: relative;
+  left    : 300px;
+  top     : -25px;
+}
+
+.welcome p {
+  color      : white;
+  text-align : center;
+  font-size  : 25px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.welcome_text {
+  color: blue;
+}
+
+.welcome_btn {
+  font-size: 35px;
+}
+
+/* end welcome page */
+
+/* start overview page */
+
+.gallary {
+  width        : 100%;
+  margin-bottom: 50px;
+}
+
+.gallary h1 {
+  font-size     : 55px;
+  text-align    : center;
+  padding-bottom: 20px;
+  font-weight   : 700;
+  margin-top    : 50px;
+}
+
+.gallary_text {
+  font-size  : 60px;
+  color      : #fac031;
+  font-family: 'Alkatra', cursive;
+  position   : relative;
+  font-weight: 500;
+}
+
+.gallary .gallary_text::after {
+  content         : "";
+  width           : 210px;
+  height          : 2px;
+  background-color: #fac031;
+  position        : absolute;
+  top             : 85%;
+  left            : 15px;
+}
+
+.gallary .gallary_image_box .gallary_image {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+}
+
+.gallary img {
+  transition: .3s;
+  width     : 100%;
+}
+
+.gallary .gallary_image_box .gallary_image:hover img {
+  opacity: 0.3333;
+}
+
+.gallary h3 {
+  position     : absolute;
+  font-size    : 35px;
+  margin-bottom: 130px;
+  color        : #fac031;
+  opacity      : 0;
+  transition   : 0.3s;
+}
+
+.gallary .gallary_image_box .gallary_image:hover h3 {
+  opacity: 1;
+}
+
+.gallary p {
+  position  : absolute;
+  margin-top: 30px;
+  width     : 300px;
+  text-align: center;
+  color     : black;
+  opacity   : 0;
+  transition: 0.3s;
+}
+
+.gallary .gallary_image_box .gallary_image:hover p {
+  opacity: 1;
+}
+
+.gallary h5 {
+  color      : #fac031;
+  text-align : center;
+  font-size  : 30px;
+  font-family: 'Alkatra', cursive;
+}
+
+.gallary .btn {
+  padding      : 5px 40px 5px 40px;
+  font-size    : 20px;
+  border-radius: 100px;
+}
+
+.gallary .btn a {
+  text-decoration: none;
+  color          : white;
+}
+
+/* end overview page */
+
+/* start login page */
+
+.login {
+  background-image   : url(../image/login_img.jpg);
+  background-position: center;
+  background-size    : cover;
+  width              : 100%;
+  height             : 100vh;
+}
+
+.layer {
+  width           : 100%;
+  height          : 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  position        : relative;
+}
+
+.login_info {
+  width           : 500px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius   : 10px;
+}
+
+.login h1 {
+  position   : absolute;
+  top        : 100px;
+  color      : white;
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+.login_logo {
+  width   : 65px;
+  height  : 65px;
+  position: relative;
+  left    : 220px;
+  top     : -25px;
+}
+
+.login_text {
+  color: blue;
+}
+
+.login .btn {
+  padding      : 5px 40px 5px 40px;
+  font-size    : 20px;
+  border-radius: 100px;
+}
+
+.login .btn a {
+  text-decoration: none;
+  color          : white;
+}
+
+.login p {
+  color     : white;
+  text-align: center;
+}
+
+.login p a {
+  text-decoration: none;
+}
+
+/* end login page */
+
+/* start register page */
+
+.register {
+  background-image   : url(../image/login_img.jpg);
+  background-position: center;
+  background-size    : cover;
+  width              : 100%;
+  height             : 100vh;
+}
+
+.register_info {
+  width           : 500px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius   : 10px;
+}
+
+.register h3 {
+  color      : white;
+  font-family: 'Delicious Handrawn', cursive;
+  text-align : center;
+}
+
+.register .btn {
+  padding      : 5px 40px 5px 40px;
+  font-size    : 20px;
+  border-radius: 100px;
+}
+
+.register .btn a {
+  text-decoration: none;
+  color          : white;
+}
+
+.register_logo {
+  width   : 35px;
+  height  : 35px;
+  position: relative;
+  left    : 225px;
+  top     : -13px;
+}
+
+/* end register page */
+
+/* start terms page */
+
+.terms {
+  background-image   : url(../image/login_img.jpg);
+  background-position: center;
+  background-size    : cover;
+  width              : 100%;
+  height             : 100vh;
+}
+
+.terms_info {
+  width           : 90%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius   : 10px;
+  padding-bottom  : 20px;
+}
+
+
+.terms_logo {
+  width   : 50px;
+  height  : 50px;
+  position: relative;
+  left    : 46%;
+  top     : -25px;
+}
+
+.terms p {
+  color       : white;
+  padding-left: 50px;
+}
+
+.terms h5 {
+  color       : #fac031;
+  padding-left: 50px;
+  font-family : 'Delicious Handrawn', cursive;
+  font-size   : 22px;
+}
+
+.terms li {
+  color: white;
+}
+
+.terms .btn {
+  padding      : 5px 40px 5px 40px;
+  font-size    : 20px;
+  border-radius: 100px;
+  position     : relative;
+  margin-left  : 480px;
+}
+
+.terms .btn a {
+  text-decoration: none;
+  color          : white;
+}
+
+/* end terms page */
+
+/* start home page */
+
+.home {
+  width        : 100%;
+  margin-bottom: 250px;
+}
+
+.home .navbar .container-fluid img {
+  width      : 70px;
+  height     : 50px;
+  margin-left: 80px;
+  cursor     : pointer;
+}
+
+nav {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul {
+  margin-left    : 180px;
+  list-style-type: none;
+}
+
+.navbar ul li a:hover {
+  color: #fac031;
+}
+
+.navbar-nav .nav-link.active:hover {
+  color: #fac031;
+}
+
+.nav-link {
+  position   : relative;
+  color      : black;
+  font-size  : 18px;
+  margin-left: 10px;
+}
+
+.nav-link::after {
+  content         : "";
+  width           : 0px;
+  height          : 2px;
+  background-color: #fac031;
+  position        : absolute;
+  left            : 10px;
+  top             : 80%;
+}
+
+.nav-link:hover::after {
+  width     : 70%;
+  transition: 0.5s;
+}
+
+.nav-item1 {
+  margin-left: 10px;
+  margin-top : 9px;
+}
+
+.nav-item1 a {
+  text-decoration: none;
+  color          : black;
+  font-size      : 18px;
+}
+
+.nav_icon i {
+  position    : relative;
+  left        : 150px;
+  padding-left: 15px;
+  cursor      : pointer;
+  font-size   : 18px;
+}
+
+.nav_icon i:hover {
+  color     : #fac031;
+  transition: 0.5s;
+}
+
+.home .container h1 {
+  font-size  : 60px;
+  position   : relative;
+  top        : 150px;
+  font-weight: 700;
+}
+
+.text {
+  color      : #fac031;
+  font-family: 'Alkatra', cursive;
+  font-size  : 70px;
+}
+
+.home .container p {
+  position : relative;
+  top      : 200px;
+  left     : 50px;
+  font-size: 17px;
+}
+
+.home_btn {
+  position        : relative;
+  top             : 220px;
+  left            : 50px;
+  padding         : 5px 30px;
+  background-color: black;
+  border          : transparent;
+}
+
+.home_btn a {
+  text-decoration: none;
+  font-size      : 17px;
+  color          : white;
+}
+
+.home_btn i {
+  color: white;
+}
+
+.home_btn:hover i {
+  transform : translateX(7px);
+  transition: 0.7s;
+}
+
+.home_btn:hover{
+  background-color: #fac031;
+  transition: 0.5s;
+}
+
+.arrow_up {
+  font-size: 50px;
+  color    : #fac031;
+  z-index: 99999999999;
+}
+
+.home_img {
+  position: relative;
+  top     : 120px;
+}
+
+
+/* end home page */
+
+/* start about page */
+
+.about {
+  width        : 100%;
+  margin-bottom: 150px;
+}
+
+.about .about_text {
+  color      : #fac031;
+  font-size  : 60px;
+  font-family: 'Alkatra', cursive;
+  position   : relative;
+}
+
+.about .about_text::after {
+  content         : "";
+  width           : 170px;
+  height          : 2px;
+  background-color: #fac031;
+  position        : absolute;
+  top             : 90%;
+  left            : 0px;
+}
+
+.about h1 {
+  font-size  : 55px;
+  font-weight: 700;
+}
+
+.about h2 {
+  font-size: 30px;
+}
+
+/* end about page */
+
+/* start menu page */
+
+.menu {
+  width        : 100%;
+  margin-bottom: 150px;
+}
+
+.menu h1 {
+  margin-bottom: 25px;
+  font-size    : 55px;
+  font-weight  : 700;
+}
+
+.menu_text {
+  color      : #fac031;
+  font-family: 'Alkatra', cursive;
+  font-size  : 60px;
+  position   : relative;
+  font-weight: 500;
+}
+
+.menu .menu_text::after {
+  content         : "";
+  width           : 145px;
+  height          : 2px;
+  background-color: #fac031;
+  position        : absolute;
+  top             : 87%;
+  left            : 0;
+}
+
+.card-img-top {
+  width     : 255px;
+  height    : 270px;
+  transition: transform 1s;
+  transform : skew();
+}
+
+.card-img-top:hover {
+  transform: scale(1.2);
+}
+
+.card-title {
+  font-size: 25px;
+  color    : #fac031;
+}
+
+.menu .card-body .fa-solid {
+  color: #fac031;
+}
+
+.menu_btn {
+  background-color: black;
+  border          : transparent;
+  padding         : 5px 35px;
+}
+
+.menu_btn:hover{
+  background-color: #fac031;
+  transition: 0.5s;
+}
+.card-body .menu_btn a {
+  text-decoration: none;
+  color          : white;
+}
+
+/* end menu page */
+
+/* start review page */
+
+.review {
+  width        : 100%;
+  margin-bottom: 150px;
+}
+
+.review h1 {
+  font-size     : 55px;
+  font-weight   : 700;
+  padding-bottom: 50px;
+  text-align    : center;
+}
+
+.review .review_text {
+  color      : #fac031;
+  font-size  : 60px;
+  font-family: 'Alkatra', cursive;
+  position   : relative;
+  font-weight: 500;
+}
+
+.review .review_text::after {
+  content         : "";
+  width           : 180px;
+  height          : 2px;
+  background-color: #fac031;
+  position        : absolute;
+  top             : 83%;
+  left            : 0px;
+}
+
+.review p {
+  transition: 0.3s;
+}
+
+.review .review_icon {
+  color     : #fac031;
+  transition: 0.3s;
+}
+
+.review_img {
+  transition: 0.3s;
+}
+
+.review .review_social i:hover {
+  color: #fac031;
+}
+
+.review .review_box .card .card-body .review_social i {
+  margin    : 5px 1px;
+  font-size : 15px;
+  opacity   : 0;
+  cursor    : pointer;
+  transition: 0.3s;
+}
+
+.review .review_box .card:hover .card-body .review_social i {
+  opacity  : 1;
+  transform: translateY(-8px);
+}
+
+.review .review_box .card:hover .review_img {
+  transform: translateY(-60px);
+}
+
+.review .review_box .card:hover .card-body .review_icon {
+  transform: translateY(-30px);
+}
+
+.review .review_box .card:hover .card-body .name {
+  transform: translateY(-50px);
+}
+
+.review .review_box .card:hover .card-body p {
+  margin-top: 5px;
+}
+
+/* end review page */
+
+/* start reservation page */
+
+.reservation {
+  margin-bottom      : 50px;
+  width              : 100%;
+  background-image   : url(../image/bg2.jpg);
+  background-position: center;
+  background-size    : cover;
+}
+
+.reservation .reservation_text {
+  font-size  : 60px;
+  font-weight: 500px;
+  font-family: 'Alkatra', cursive;
+  color      : #fac031;
+  position   : relative;
+}
+
+.reservation .reservation_text::after {
+  content         : "";
+  width           : 115px;
+  height          : 2px;
+  background-color: #fac031;
+  position        : absolute;
+  top             : 82%;
+  left            : 0px;
+}
+
+.reservation h1 {
+  font-size     : 55px;
+  font-weight   : 700px;
+  text-align    : center;
+  position: relative;
+  bottom: 50px;
+}
+
+.reservation .form-control {
+  background-color: #eeeeee;
+}
+
+.reservation_btn {
+  background-color: black;
+  border          : transparent;
+  padding         : 5px 25px;
+}
+
+.reservation_btn:hover{
+  background-color: #fac031;
+  transition: 0.5s;
+}
+
+.reservation a {
+  text-decoration: none;
+  color          : white;
+}
+
+/* end reservation page */
+
+/* start contact us page */
+
+.contact {
+  margin-bottom      : 50px;
+  width              : 100%;
+  background-image   : url(../image/bg2.jpg);
+  background-position: center;
+  background-size    : cover;
+}
+
+.contact .contact_text {
+  font-size  : 60px;
+  font-weight: 500px;
+  font-family: 'Alkatra', cursive;
+  color      : #fac031;
+  position   : relative;
+}
+
+.contact .contact_text::after {
+  content         : "";
+  width           : 190px;
+  height          : 2px;
+  background-color: #fac031;
+  position        : absolute;
+  top             : 75%;
+  left            : 0px;
+}
+.contact h1 {
+  font-size     : 55px;
+  font-weight   : 700px;
+  text-align    : center;
+  bottom: 50px;
+  position: relative;
+}
+
+.contact .form-control {
+  background-color: #eeeeee;
+}
+
+.contact_btn {
+  background-color: black;
+  border          : transparent;
+  padding         : 5px 25px;
+}
+
+.contact_btn:hover{
+  background-color: #fac031;
+  transition: 0.5s;
+}
+
+.contact a {
+  text-decoration: none;
+  color          : white;
+}
+
+/* end contact us page */
+
+/* start team page */
+
+.team {
+  padding-bottom     : 60px;
+  padding-top     : 60px;
+  width              : 100%;
+  background-image   : url(../image/bg1.jpg);
+  background-position: center;
+  background-size    : cover;
+}
+
+.team .team_text {
+  font-size  : 55px;
+  font-weight: 700px;
+  font-family: 'Alkatra', cursive;
+  color      : #fac031;
+  position   : relative;
+}
+
+.team .team_text::after {
+  content         : "";
+  width           : 115px;
+  height          : 2px;
+  background-color: #fac031;
+  position        : absolute;
+  top             : 85%;
+  left            : 10px;
+}
+
+.team h1 {
+  font-size     : 60px;
+  font-weight   : 500px;
+  padding-bottom: 50px;
+  text-align    : center;
+}
+
+.team img {
+  width        : 220px;
+  height       : 200px;
+  border-radius: 50%;
+  cursor       : pointer;
+  box-shadow   : 0 0 8px rgba(0, 0, 0, 0.5);
+  transition   : 0.4s;
+}
+
+.team .team_box .profile {
+  width          : 250px;
+  height         : 300px;
+  border-radius  : 50%;
+  margin         : 0 15px;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  position       : relative;
+  box-shadow     : 0 0 8px rgba(0, 0, 0, 0.5);
+  transition     : 0.4s;
+}
+
+.team .team_box .profile .team_info {
+  position  : absolute;
+  text-align: center;
+  top       : 25%;
+  transition: 0.4s;
+  opacity   : 0;
+}
+
+.team .team_box .profile .team_info .name {
+  color        : #fac031;
+  margin-bottom: 15px;
+}
+
+.team .team_box .profile .team_info .team_icon i {
+  margin    : 10px 5px 5px 0;
+  cursor    : pointer;
+  transition: 0.3s;
+}
+
+.team .team_box .profile:hover {
+  border-radius: 20px;
+  height       : 380px;
+}
+
+.team .team_box .profile:hover img {
+  border-radius: 20px;
+  margin-top   : -230px;
+}
+
+.team .team_box .profile:hover .team_info {
+  top    : 60%;
+  opacity: 1;
+}
+
+.team .team_box .profile .team_info .team_icon i:hover {
+  color: #fac031;
+}
+
+/* end team page */
+
+/* start copy-right page */
+
+.copy_right {
+  width           : 100%;
+  background-color: #eeeeee;
+  padding-bottom  : 10px;
+}
+
+.copy_text {
+  color: #fac031;
+}
+
+/* end copy-right page */
+
+/*start scroll */
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 15px;
+  box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background   : #fac031;
+  border-radius: 15px;
+}
+
+/* end scroll */
+
+/* start loading page */
+
+.loading {
+  position        : fixed;
+  z-index         : 99999;
+  top             : 0;
+  bottom          : 0;
+  left            : 0;
+  right           : 0;
+  background-color: rgb(46, 45, 45);
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+}
+
+.loader {
+  position        : relative;
+  width           : 120px;
+  height          : 14px;
+  border-radius   : 0 0 15px 15px;
+  background-color: #3e494d;
+  box-shadow      : 0 -1px 4px #5d6063 inset;
+  animation       : 0.5s linear alternate infinite;
+  transform-origin: 170px 0;
+  z-index         : 10;
+  perspective     : 300px;
+
+}
+
+.loader::before {
+  content            : '';
+  position           : absolute;
+  left               : calc(100% - 2px);
+  top                : 0;
+  z-index            : -2;
+  height             : 10px;
+  width              : 70px;
+  border-radius      : 0 4px 4px 0;
+  background-repeat  : no-repeat;
+  background-image   : linear-gradient(#6c4924, #4b2d21), linear-gradient(#4d5457 24px, transparent 0), linear-gradient(#9f9e9e 24px, transparent 0);
+  background-size    : 50px 10px, 4px 8px, 24px 4px;
+  background-position: right center, 17px center, 0px center;
+}
+
+.loader::after {
+  content   : '';
+  position  : absolute;
+  left      : 50%;
+  top       : 0;
+  z-index   : -2;
+  transform : translate(-50%, -20px) rotate3d(75, -2, 3, 78deg);
+  width     : 55px;
+  height    : 53px;
+  background: #fff;
+  background-image:
+    radial-gradient(circle 3px, #fff6 90%, transparent 10%),
+    radial-gradient(circle 12px, #ffc400 90%, transparent 10%),
+    radial-gradient(circle 12px, #ffae00 100%, transparent 0);
+  background-repeat  : no-repeat;
+  background-position: -4px -6px, -2px -2px, -1px -1px;
+  box-shadow         : -2px -3px #0002 inset, 0 0 4px #0003 inset;
+  border-radius      : 47% 36% 50% 50% / 49% 45% 42% 44%;
+  animation          : eggRst 1s ease-out infinite;
+}
+
+@keyframes eggRst {
+
+  0%,
+  100% {
+    transform: translate(-50%, -20px) rotate3d(90, 0, 0, 90deg);
+    opacity  : 0;
+  }
+
+  10%,
+  90% {
+    transform: translate(-50%, -30px) rotate3d(90, 0, 0, 90deg);
+    opacity  : 1;
+  }
+
+  25% {
+    transform: translate(-50%, -40px) rotate3d(85, 17, 2, 70deg)
+  }
+
+  75% {
+    transform: translate(-50%, -40px) rotate3d(75, -3, 2, 70deg)
+  }
+
+  50% {
+    transform: translate(-55%, -50px) rotate3d(75, -8, 3, 50deg)
+  }
+}
+
+@keyframes panex {
+  0% {
+    transform: rotate(-5deg)
+  }
+
+  100% {
+    transform: rotate(10deg)
+  }
+}
+
+/* end loading page */
